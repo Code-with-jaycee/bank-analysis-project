@@ -4,5 +4,5 @@ summary(health_data)
 names(health_data)
 class(health_data$Amount..US...Millions.)
 table(health_data$Amount..US...Millions.)
-barplot(health_data$Amount..US...Millions.)
+barplot(health_data$Amount..US...Millions., col= 2)
 
